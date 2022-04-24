@@ -3,11 +3,6 @@ import CONSTANTS from "./Constants";
 
 
 const config = {
-  headers:  {
-    'Access-Control-Allow-Origin': '*',
-    'Content-Type': 'application/json',
-  }, 
-  mode : 'no-cors'
 }
 const mode = 'no-cors';
 export function getAllSymbols(symbols) {
