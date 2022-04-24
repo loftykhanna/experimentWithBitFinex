@@ -1,0 +1,29 @@
+.div-table {
+	display: flex;  
+	flex-direction: column;                    
+	width:100%      
+  }
+  .div-table-row {
+	display: flex;
+	flex-direction: row;
+	width:100%;
+
+  }
+
+
+  .tableHeader{
+	background-color: rgb(71, 192, 237);
+  }
+  .div-table-col {   
+	  padding:10px;
+	  width: 9% ;
+	  border: 1px solid black ;
+	  word-wrap: break-word;
+	  box-sizing: border-box;
+  }
+  
+  .tableInfo{
+	  padding: 20px;
+	  font-size: 16px;
+	  font-weight: bold;
+  }
