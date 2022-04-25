@@ -1,5 +1,5 @@
 import React, { useEffect, useState, memo } from "react";
-import { getAllExchangeSymbols } from "../../Api";
+// import { getAllExchangeSymbols } from "../../Api";
 
 import { debounce } from "../../utils";
 
@@ -15,11 +15,9 @@ import "./exchange_style.css";
 let initialSymbol;
 function Exchange(props) {
   const [allSymbols, setAllSymbols] = useState(props.symbolList);
-  console.log("from exchange", props.symbolList, allSymbols);
+  initialSymbol = props.symbolList;
 
-
-
-  const tempSymbols = [...allSymbols]
+  const tempSymbols = [...allSymbols];
   useEffect(() => {
     /*  getAllExchangeSymbols(props.type).then(
       (response) => {
@@ -33,8 +31,6 @@ function Exchange(props) {
   }, []);
 
   const renderLeft = memo(({ data, index, key }) => {
-    console.log("renderLeft", data, index);
-
     if (data.length) {
       let symbol = data[index];
       return (
@@ -74,10 +70,8 @@ function Exchange(props) {
     const {
       target: { value },
     } = e;
-    console.log(value);
     debouncedFilterList(value);
   };
-  console.log("test rerender");
   return (
     <div>
       <div class="search">
@@ -95,9 +89,9 @@ function Exchange(props) {
         {allSymbols.length ? (
           <List
             className="List"
-            height={700}
+            height={1100}
             itemCount={allSymbols.length}
-            itemSize={30}
+            itemSize={50}
             width={600}
             itemData={tempSymbols}
           >

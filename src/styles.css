@@ -5,6 +5,7 @@
 
 .header {
   text-align: center;
+
 }
 
 .container {
@@ -20,14 +21,15 @@
 .right {
   width: 69%;
   height: 100%;
-  background-color: orange;
 }
 
-
-.tableWrapper{
-  width:1100px;
+.tableWrapper {
+  width: 1100px;
   position: relative;
   top: 20%;
-  left:10%;
+  left: 10%;
 }
 
+body {
+  margin: 0px;
+}
