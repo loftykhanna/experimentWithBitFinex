@@ -27,6 +27,6 @@ npm start
 - Added 2 tabs for for currency and exchange. These tab data is not refreshed on tab changes as possiblity of change of data on tab change is very less.
 - Added search inside list with debounce
 - Added Error boundaries for error handling.
-- Added candlestick graph for month wise data - if for some symbols data is not available, no api call is made to fetch graph data and no graph is shown in that case.
+- Added candlestick graph for month wise data - if for some symbols,  data is not available, no api call is made to fetch graph data and no graph is shown in that case.
 - Created API.js to make API calls.
 - Created Constants and utils for common code.
