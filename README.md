@@ -4,7 +4,7 @@ Some basic experiment with Bitfinex API's
 
 # Live URL 
 
-[Live URL]('https://6265ec92cbf68410ecaff5a6--comfy-beijinho-5b8b98.netlify.app/')
+[Live URL](https://6265ec92cbf68410ecaff5a6--comfy-beijinho-5b8b98.netlify.app/)
 
 Note : Please enable CORS extension in your browser 
 
